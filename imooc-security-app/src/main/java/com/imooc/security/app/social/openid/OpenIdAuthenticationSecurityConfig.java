@@ -15,6 +15,7 @@ import org.springframework.social.connect.UsersConnectionRepository;
 import org.springframework.social.security.SocialUserDetailsService;
 import org.springframework.stereotype.Component;
 
+
 /**
  * @author zhailiang
  *

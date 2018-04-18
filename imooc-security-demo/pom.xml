@@ -10,11 +10,11 @@
 	</parent>
 
 	<dependencies>
-		<!-- <dependency>
-			<groupId>com.imooc.security</groupId>
-			<artifactId>imooc-security-browser</artifactId>
-			<version>${imooc.security.version}</version>
-		</dependency> -->
+		<!--&lt;!&ndash; <dependency>-->
+			<!--<groupId>com.imooc.security</groupId>-->
+			<!--<artifactId>imooc-security-browser</artifactId>-->
+			<!--<version>${imooc.security.version}</version>-->
+		<!--</dependency> &ndash;&gt;-->
 		<dependency>
 			<groupId>com.imooc.security</groupId>
 			<artifactId>imooc-security-app</artifactId>

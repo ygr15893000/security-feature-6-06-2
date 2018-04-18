@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+import java.security.Principal;
+
 /**
  * @author zhailiang
  *
@@ -28,6 +30,12 @@ public class DemoApplication {
 	
 	@GetMapping("/hello")
 	public String hello() {
+		return "hello spring security";
+	}
+	@GetMapping("/user/getUser")
+	public String user(Principal principal) {
+		final String name = principal.getName();
+		System.out.printf("name:"+ name);
 		return "hello spring security";
 	}
 
